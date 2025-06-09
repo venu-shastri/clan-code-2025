@@ -38,11 +38,4 @@ void printColorMap(ColorPairPrinter print) {
         print(&colorMap[i]);
     }
 }
- 
-int main() {
-  
-    printColorMap(printColorPair);
- 
-    printf("All is well (maybe!)\n");
-    return 0;
-}
+
