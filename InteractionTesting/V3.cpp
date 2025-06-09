@@ -36,13 +36,3 @@ void printColorMap(const ColorPair colorMap[], int totalPairs,ColorPairPrinter p
     }
 }
  
-int main() {
-    ColorPair colorMap[MAX_COLORS];
-    int totalPairs = 0;
- 
-    generateColorMap(colorMap, &totalPairs);
-    printColorMap(colorMap, totalPairs,printColorPair);
- 
-    printf("All is well (maybe!)\n");
-    return 0;
-}
