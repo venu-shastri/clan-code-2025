@@ -1,3 +1,7 @@
+// Prompt Message : use user defined functional interface instead of  Predicate
+
+
+
 import java.util.*;
 import java.util.stream.Collectors;
 
